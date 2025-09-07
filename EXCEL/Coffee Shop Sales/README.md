@@ -88,3 +88,8 @@ revenue
 -   Explore product combination analysis for **cross-selling**
     opportunities (e.g., Coffee + Pastry bundles)\
 -   Automate reporting using Python or Power BI
+
+
+**Dashboard**
+<img width="1310" height="539" alt="SalesDashboard" src="https://github.com/user-attachments/assets/2af2123c-a07f-437c-97cb-35a3296e04b9" />
+
