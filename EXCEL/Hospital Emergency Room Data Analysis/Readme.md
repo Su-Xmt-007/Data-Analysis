@@ -52,3 +52,7 @@ Access the Dashboard sheet for a comprehensive, visual overview. Use the slicers
 Add interactive slicers for filtering data by patient demographics (age group, gender).
 Create a drill-down feature to analyze specific outliers in wait times or satisfaction scores.
 Automate data refresh and reporting using VBA macros.
+
+**Dashboard:**
+<img width="1303" height="540" alt="image" src="https://github.com/user-attachments/assets/a411b9b9-6f1a-4105-860e-44f689a769dd" />
+
