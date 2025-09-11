@@ -1,28 +1,48 @@
 **📊 Vrinda Store Annual Sales Report (2022)**
 
+
 **📌 Objective**
 Vrinda Store wanted to analyze its annual sales performance for 2022 in order to better understand customer behavior, sales trends, and key contributing factors.The goal of this analysis is to generate insights that will help improve sales growth in 2023.
 
+
 **📂 Dataset**
 The dataset used for this project includes order details such as:
+
 Order ID
+
 Sales Amount
+
 Order Status
+
 Customer Gender & Age Group
+
 State
+
 Sales Channel (Amazon, Flipkart, Myntra, etc.)
+
 Product Categories
 
+
 **❓ Business Questions Addressed**
+
 The analysis answers the following sample questions:
+
 Compare the sales vs. orders in a single chart.
+
 Identify the month with the highest sales and orders.
+
 Analyze who purchased more – men or women in 2022.
+
 Find out the different order statuses in 2022.
+
 List the top 10 states contributing to sales.
+
 Show the relation between age and gender based on number of orders.
+
 Identify which channel contributes maximum sales.
+
 Determine the highest selling product category.
+
 
 **📈 Dashboard Overview**
 The interactive Excel Dashboard highlights:
