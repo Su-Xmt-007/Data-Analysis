@@ -1,5 +1,5 @@
 📊 Marketing ROI & Budget Optimization Analysis
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2986d775-b786-418f-bb1a-d38a6527fea2" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/62854527-a72b-45ef-84f9-083f2da38830" />
 
 End-to-End Marketing Analytics Project
 
