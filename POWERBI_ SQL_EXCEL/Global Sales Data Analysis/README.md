@@ -1,303 +1,408 @@
-🌍 Global Sales Data Analytics Project – 2025
+# 🌍 Global Sales Analytics Intelligence Platform
+### *Transforming Multi-Country Retail Data into Executive-Level Business Intelligence*
 
-End-to-End Retail Sales Analytics | PostgreSQL | SQL | Advanced Statistics | Power BI | Executive Reporting
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Enterprise%20Warehouse-blue?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Advanced%20Analytics-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-Interactive%20Dashboard-yellow?style=for-the-badge&logo=powerbi&logoColor=black)
+![Statistics](https://img.shields.io/badge/Statistics-Hypothesis%20Testing-green?style=for-the-badge)
+![Regression](https://img.shields.io/badge/Regression-Modeling-orange?style=for-the-badge)
+![GitHub](https://img.shields.io/badge/GitHub-Portfolio%20Project-181717?style=for-the-badge&logo=github&logoColor=white)
 
-📌 Project Overview
+---
 
-This project presents a complete enterprise-grade sales analytics solution built on a multi-country retail dataset (Canada, China, India, Nigeria, UK, US).
+# 📌 Project Overview
 
-The goal was to move beyond descriptive analytics and answer:
+Modern retail organizations generate massive volumes of transactional data daily, yet many businesses struggle to transform raw sales records into meaningful strategic decisions.
 
-🔎 What happened?
-🧠 Why did it happen?
-🚀 What should management do next?
+This project presents a complete end-to-end retail sales analytics solution built using:
 
-This project integrates:
+- PostgreSQL
+- Advanced SQL
+- Statistical Testing
+- Regression Modeling
+- Power BI
+- Executive Reporting
 
-🏗 Enterprise Data Architecture (PostgreSQL)
+The analysis was performed on a multi-country retail dataset covering:
 
-📊 Advanced SQL Exploratory Data Analysis
+- 🇨🇦 Canada
+- 🇨🇳 China
+- 🇮🇳 India
+- 🇳🇬 Nigeria
+- 🇬🇧 United Kingdom
+- 🇺🇸 United States
 
-📈 Statistical Testing (T-Test, ANOVA, Chi-Square)
+The goal was to move beyond descriptive analytics and answer critical business questions:
 
-📉 Regression Modeling
+- 🔎 What happened?
+- 🧠 Why did it happen?
+- 📈 What factors truly drive profitability?
+- 🚀 What strategic actions should management take next?
 
-📊 Power BI Executive Dashboards
+The final outcome is a professional business intelligence solution combining data engineering, statistical analytics, and executive storytelling.
 
-📘 Executive-Level Strategic Report
+---
 
-🏗 1️⃣ Data Architecture (PostgreSQL)
-🔹 Enterprise Layered Design
+# ✨ Key Features & Deliverables
 
-Implemented a 4-layer architecture:
+- 🏗️ Enterprise-grade PostgreSQL data warehouse
+- 📊 Advanced SQL exploratory data analysis (EDA)
+- 📈 Statistical hypothesis testing (T-Test, ANOVA, Chi-Square)
+- 📉 Multiple regression modeling
+- 📊 Interactive Power BI executive dashboard
+- 📘 Board-level executive PDF report
+- 🔍 Data quality validation and financial correction pipeline
+- 🎯 Business-focused strategic recommendations
 
-Layer	Purpose
-RAW	Exact CSV ingestion (no transformation)
-VALIDATION	Null checks, duplicates, invalid data detection
-TRANSFORM	Data cleaning, type casting, metric calculation
-FACT	Analytics-ready structured table
-✅ Business Metrics Computed
+---
 
-Gross Revenue
+# 🏗️ Enterprise Data Architecture
 
-Discount Amount
+A layered enterprise data architecture was implemented to ensure scalability, data quality, and analytics readiness.
 
-Net Revenue
+| Layer | Purpose |
+|---|---|
+| RAW | Raw CSV ingestion without transformation |
+| VALIDATION | Null checks, duplicate detection, data integrity validation |
+| TRANSFORM | Cleaning, type conversion, metric calculation |
+| FACT | Analytics-ready centralized fact table |
 
-Total Cost
+---
 
-Total Profit
+# 🛠️ Technologies Used
 
-Profit Margin
+| Tool | Purpose |
+|---|---|
+| PostgreSQL | Data Warehouse |
+| SQL | EDA & Business Analysis |
+| Power BI | Dashboard & Visualization |
+| Excel | Statistical Testing |
+| Python (ReportLab) | Executive PDF Report Generation |
+| pgAdmin 4 | Database Administration |
 
-🛠 Technologies Used
+---
 
-PostgreSQL
+# 🔍 Data Integrity & Financial Correction
 
-pgAdmin 4
+During exploratory analysis, several financial inconsistencies were identified:
 
-SQL Validation Logic
+- Unrealistic product cost structures
+- Excessive discounts (up to 98%)
+- Artificial negative profitability
+- Margin instability
 
-Error Logging Table
+## ✅ Corrections Applied
 
-🔍 2️⃣ Data Integrity Correction
+- Reconstructed cost price using realistic pricing assumptions
+- Standardized discount range between 0–40%
+- Recalculated all financial KPIs
+- Validated economic consistency across records
 
-During EDA, financial inconsistencies were discovered:
+> Result: The dataset became economically realistic, analytics-ready, and suitable for executive decision-making.
 
-Unrealistic cost structure
+---
 
-Excessive discounts (up to 98%)
+# 📊 Exploratory Data Analysis (SQL)
 
-Artificial negative profits
+The project answered several high-impact business questions.
 
-🔧 Corrections Applied
+## 🌍 Revenue Performance
 
-Reconstructed cost price (65–75% of selling price)
+- Which countries generate the highest revenue?
+- Which months show strongest sales seasonality?
+- How volatile is revenue performance?
 
-Standardized discount range (0–40%)
+## 📦 Profitability Analysis
 
-Recalculated all financial metrics
+- Which categories generate the highest profit?
+- How do discounts impact margins?
+- Which products are high-margin but low-volume?
 
-✅ Result: Dataset became economically realistic and decision-ready.
+## 👥 Customer Behavior
 
-📊 3️⃣ Exploratory Data Analysis (SQL)
-Key Business Questions Answered
-🌍 Performance
+- Revenue contribution by age group
+- Gender-wise profitability analysis
+- Preferred payment methods by customer segment
 
-Which country generates highest revenue?
+## ⚠️ Risk & Stability Analysis
 
-Seasonal trends by month?
+- Revenue volatility analysis (CV = 82%)
+- Profit margin stability analysis (CV = 42%)
+- Outlier detection using Z-score & IQR methods
 
-Revenue volatility analysis?
+---
 
-📦 Profitability
+# 🧪 Statistical Hypothesis Testing
 
-Top profitable categories
+The analysis moved beyond descriptive reporting into diagnostic analytics.
 
-Discount vs margin analysis
+---
 
-High-margin low-volume products
+## 🔹 T-Test — Adult vs Senior Purchase Quantity
 
-👥 Customer Behavior
+| Metric | Result |
+|---|---|
+| p-value | 0.728 |
+| Cohen's d | 0.015 |
 
-Age group revenue contribution
+❌ No statistically significant difference in purchase quantity.
 
-Gender-wise profit
+---
 
-Payment method preference
+## 🔹 ANOVA — Store Location vs Profit Margin
 
-⚠ Risk & Stability
+| Metric | Result |
+|---|---|
+| p-value | 0.629 |
+| Eta² | 0.0048 |
 
-Revenue volatility (CV = 82%)
+❌ Geography does not significantly influence profitability.
 
-Profit margin stability (CV = 42%)
+---
 
-Outlier detection (Z-score & IQR)
+## 🔹 Chi-Square — Age Group × Payment Method
 
-📈 4️⃣ Advanced Statistical Testing
+| Metric | Result |
+|---|---|
+| p-value | 0.107 |
+| Cramer's V | 0.038 |
 
-Moved from descriptive → diagnostic analytics.
+❌ Payment method preference is not dependent on age group.
 
-🔹 T-Test (Adult vs Senior)
+---
 
-p = 0.728
+# 📉 Multiple Regression Modeling
 
-Cohen’s d = 0.015
+A multiple regression model was developed to identify the strongest drivers of profitability.
 
-❌ No significant difference in purchase quantity.
+## 📊 Model Findings
 
-🔹 ANOVA (Store Location → Profit Margin)
+| Variable | Impact | Result |
+|---|---|---|
+| Quantity Purchased | Strong Positive | ✅ Significant |
+| Discount Applied | Weak | ❌ Not Significant |
+| Price Per Unit | Slight Negative | ⚠️ Minor Effect |
+| Country | Minimal | ❌ Not Significant |
+| Category | Minimal | ❌ Not Significant |
 
-p = 0.629
+## 🎯 Core Business Insight
 
-Eta² = 0.0048
+> Profitability is primarily volume-driven.
 
-❌ Geography does not drive profitability.
+After eliminating geography, demographics, category, discount strategy, and payment behavior, the only consistently significant predictor of profit margin was:
 
-🔹 Chi-Square (Age × Payment Method)
+✅ Quantity Purchased
 
-p = 0.107
+This suggests operational scale and basket size matter more than aggressive discounting strategies.
 
-Cramer’s V = 0.038
+---
 
-❌ Payment preference not dependent on age.
+# 🔥 Key Business Findings
 
-📉 5️⃣ Multiple Regression Modeling
-Model Strength
+## 1️⃣ Discounts Do Not Drive Long-Term Profitability
 
-R² ≈ 4.9%
+Heavy discounting reduced revenue quality without meaningfully improving margin performance.
 
-Statistically significant overall
+---
 
-Significant Predictor
-Variable	Impact	Result
-Quantity Purchased	Strong Positive	✅ Significant
-Discount Applied	Weak	❌ Not significant
-Price Per Unit	Slight Negative	⚠ Small effect
-Country	None	❌ Not significant
-Category	None	❌ Not significant
-🎯 Core Business Finding
+## 2️⃣ Geography Has Limited Impact
 
-🔥 Profit is volume-driven.
+Country-level differences were statistically insignificant in determining profit margin.
 
-After eliminating:
+---
 
-Geography
+## 3️⃣ Sales Volume Is the Primary Profit Driver
 
-Category
+Higher purchase quantity consistently increased profitability across all regions.
 
-Demographics
+---
 
-Discount
+## 4️⃣ Margin Stability Matters More Than Revenue Peaks
 
-Payment behavior
+Several high-revenue periods showed unstable profitability due to discount leakage.
 
-Only Quantity Purchased significantly impacts profit margin.
+---
 
-📊 6️⃣ Power BI Dashboard
+# 📊 Power BI Executive Dashboard
 
-Built a 3-page interactive dashboard:
+A professional 3-page interactive Power BI dashboard was developed for executive stakeholders.
 
-📌 Executive Summary
+---
 
-KPI Cards
+## 📌 Executive Summary
 
-Revenue Trend
+- KPI Cards
+- Revenue Trends
+- Country Comparison
+- Profitability Overview
 
-Country Comparison
+---
 
-Profit Overview
+## 🌍 Regional Deep Dive
 
-🌍 Regional Deep Dive
+- Geographic Sales Analysis
+- Store-Level Performance
+- Category Profit Matrix
+- Heatmap Analysis
 
-Map Visualization
+---
 
-Category Profit Matrix
+## 👥 Customer Analytics
 
-Store Heatmap
+- Age × Gender Treemap
+- Payment Method Distribution
+- Discount Sensitivity Analysis
+- Customer Segment Insights
 
-👥 Customer Behavior
+---
 
-Age × Gender Treemap
+# 🚀 Advanced Dashboard Features
 
-Payment Method Distribution
+- Dynamic Top N Analysis
+- Interactive Slicers
+- Drill-through Navigation
+- KPI vs Target Tracking
+- Cross-filtering
+- Executive Storytelling Layout
 
-Discount Sensitivity Scatter
+---
 
-🔥 Advanced Features
+# 📷 Dashboard Preview
 
-Drill-through pages
+## Executive Dashboard
 
-Dynamic Top N filter
+<!-- Replace with dashboard screenshot -->
+<img width="1400" alt="Global Sales Dashboard" src="YOUR_DASHBOARD_IMAGE_LINK">
 
-KPI vs Target comparison
+---
 
-Page navigation buttons
+# 📘 Executive Report
 
-📘 7️⃣ Executive Report
+A board-level executive PDF report was created summarizing:
 
-A professional board-level PDF report was generated summarizing:
+- Data governance process
+- Validation framework
+- Statistical findings
+- Regression insights
+- Strategic business recommendations
 
-Data governance
+📎 File Included:
+`Global_Sales_Executive_Report_2025.pdf`
 
-Financial validation
+---
 
-Statistical results
+# 🧠 Strategic Recommendations
 
-Regression insights
+Instead of focusing on:
 
-Strategic recommendations
+- ❌ Aggressive discounting
+- ❌ Geographic restructuring
+- ❌ Demographic segmentation
 
-📎 See: Global_Sales_Executive_Report_2025.pdf
+The analysis recommends focusing on:
 
-🧠 Strategic Recommendations
+- ✅ Increasing basket size
+- ✅ Cross-selling & upselling
+- ✅ Operational efficiency
+- ✅ Seasonal inventory planning
+- ✅ Revenue stability optimization
 
-Instead of:
+---
 
-❌ Heavy discounting
-❌ Geography restructuring
-❌ Demographic segmentation
+# 🚀 Business Impact
 
-Focus on:
+Expected business outcomes include:
 
-✅ Increasing basket size
-✅ Cross-selling & upselling
-✅ Volume growth strategies
-✅ Operational efficiency
-✅ Seasonal inventory planning
+- 📈 4–7% potential margin improvement
+- 📊 Improved revenue consistency
+- 💰 Reduced profit leakage
+- 🎯 Better pricing strategy
+- 🏪 Improved inventory planning
+- 📉 Better operational efficiency
 
-🚀 Business Impact
+---
 
-Expected outcomes:
+# 🗂️ Repository Structure
 
-+4–7% margin improvement
+```plaintext
+GLOBAL-SALES-DATA-ANALYSIS/
+│
+├── 📁 DATA/
+│   ├── sales_Canada.csv
+│   ├── sales_China.csv
+│   ├── sales_India.csv
+│   └── ...
+│
+├── 📁 SQL/
+│   ├── schema_creation.sql
+│   ├── data_validation.sql
+│   ├── eda_queries.sql
+│   └── regression_queries.sql
+│
+├── 📁 POWERBI/
+│   └── Sales_Data.pbix
+│
+├── 📁 REPORT/
+│   └── Global_Sales_Executive_Report_2025.pdf
+│
+├── 📁 DASHBOARD_SCREENSHOTS/
+│
+└── README.md
+```
 
-Increased revenue stability
+---
 
-Reduced operational leakage
+# 🎓 Skills Demonstrated
 
-Better marketing ROI
+- Enterprise Data Modeling
+- Advanced SQL Analytics
+- Statistical Thinking
+- Hypothesis Testing
+- Business Intelligence
+- Data Visualization
+- Executive Storytelling
+- Dashboard Design
+- Data Validation & Governance
+- Business Strategy Communication
 
-🛠 Tech Stack
-Tool	Purpose
-PostgreSQL	Data warehouse
-SQL	EDA & Validation
-Excel	Statistical Testing
-Power BI	Dashboard & Visualization
-Python (ReportLab)	PDF Report Generation
-📂 Repository Structure
-/data
-    sales_Canada.csv
-    sales_China.csv
-    ...
-/sql
-    schema_creation.sql
-    data_validation.sql
-    eda_queries.sql
-    regression_queries.sql
-/powerbi
-    Sales_data.pbix
-/report
-    Global_Sales_Executive_Report_2025.pdf
-README.md
+---
 
-🎓 What This Project Demonstrates
+# 🔮 Future Enhancements
 
-Enterprise data modeling
+- Predictive sales forecasting
+- Customer segmentation using clustering
+- Real-time Power BI refresh pipeline
+- Automated anomaly detection
+- Streamlit analytics web application
+- Machine learning-based profit prediction
 
-Advanced SQL proficiency
+---
 
-Statistical thinking
+# 👨‍💻 Author
 
-Hypothesis-driven analytics
+## Subhamoy Hazra
 
-Business storytelling
+Aspiring Data Analyst specializing in:
 
-Dashboard design expertise
+- SQL
+- PostgreSQL
+- Power BI
+- Statistical Analytics
+- Business Intelligence
 
-Executive communication skills
+🔗 GitHub: https://github.com/Su-Xmt-007
 
-👨‍💻 Author
+---
 
-Subhamoy Hazra
-Data Analyst | SQL | Power BI | Statistical Modeling
+# ⭐ Final Note
+
+This project demonstrates the complete lifecycle of a modern analytics solution:
+
+- Data Engineering
+- Data Validation
+- SQL Analytics
+- Statistical Testing
+- Business Intelligence
+- Executive Reporting
+
+If you found this project valuable, consider giving it a ⭐ on GitHub.
